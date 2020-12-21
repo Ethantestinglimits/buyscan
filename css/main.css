@@ -1,0 +1,103 @@
+body
+{
+    background: rgb(237,237,237);
+    background: -moz-linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(223,251,255,0.8757878151260504) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(223,251,255,0.8757878151260504) 100%);
+    background: linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(223,251,255,0.8757878151260504) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed",endColorstr="#dffbff",GradientType=1);
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+
+
+}
+
+.banner {
+    font-family: "Comic Sans MS";
+}
+
+.text {
+    position: relative;
+    top: 70px;
+    left: -60px;
+    height: 100%;
+    width: 100%;
+    background: rgba(90,0,10,0.4);
+
+    /* style du texte */
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+
+    /* centrer le texte*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Gestion des images*/
+.primg {
+    margin-right:10px;
+    height: auto;
+    width: 200%;
+    filter: blur(2px);
+}
+
+.img {
+    height: auto;
+    width: 200%;
+    filter: blur(2px);
+}
+
+/* Affichage chapitres*/
+
+.op {
+    align-self: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,85px);
+    grid-gap:1em ;
+    grid-template-rows: repeat(auto-fill,115px);
+    margin-bottom: 25px;
+
+
+
+
+}
+
+.csman {
+
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,85px);
+    grid-gap:1em ;
+    grid-template-rows: repeat(auto-fill,115px);
+    margin-bottom: 25px;
+
+}
+.mha {
+
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,85px);
+    grid-gap:1em ;
+    grid-template-rows: repeat(auto-fill,115px);
+    margin-bottom: 25px;
+
+}
+
+#about {
+
+}
+
+/* Généré sur https://www.shapedivider.app */
+
