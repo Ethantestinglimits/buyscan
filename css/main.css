@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    border: 1px solid red;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
 
 body
 {
-    background-image: url("../img/bg.png");
+    display: flex;
+    flex-direction: column;
+
     background: rgb(237,237,237);
     background: -moz-linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(223,251,255,0.8757878151260504) 100%);
     background: -webkit-linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(223,251,255,0.8757878151260504) 100%);
-    background: linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(223,251,255,0.8757878151260504) 100%);
+    background: linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(223,251,255,0.8757878151260504) 100%), url("../img/bg.png") center/100% fixed no-repeat;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed",endColorstr="#dffbff",GradientType=1);
 
 }
@@ -47,6 +53,7 @@ nav h1 {
     color: black;
     margin-right: auto;
 }
+
 /* Partie gauche du nav */
 
 nav .left {
@@ -57,27 +64,23 @@ nav .left {
 
 nav .left h1:hover { color: white; }
 
+nav .left h1 {
+
+    padding: 0 1em;
+    font-size: clamp(0.5rem, 2vw, 2rem);
+    color: #ff0000;
+    font-family: "Poppins";
+    transition: 0.3s ease-in-out;
+
+}
+
 /* Partie centrale du nav */
 
 nav .mid img {
 
-    display: block;
-    width: 50px;
+    width: 60px;
     height: auto;
-    position: fixed;
-    left: 50%;
-    contain: none;
-    margin-left: -25px;
-
-}
-
-nav .mid h1 {
-
-    padding: 0 1em;
-    font-size: 2rem;
-    color: #ff0000;
-    font-family: "Poppins";
-    transition: 0.3s ease-in-out;
+    position: absolute;
 
 }
 
@@ -182,7 +185,6 @@ nav .right .nav-about:hover { color: white; }
 
 }
 
-
 /* =============================================================================================================
                                             GRID
    ============================================================================================================= */
@@ -264,11 +266,10 @@ nav .right .nav-about:hover { color: white; }
                                             ABOUT
    ============================================================================================================= */
 .about {
-
+    align-self: center;
     text-align: center;
     height: 100vh;
     width: 70vw;
-    align-self: center;
 
     display: flex;
     justify-content: center;
