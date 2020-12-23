@@ -32,11 +32,11 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
     background: rgb(255, 255, 255);
     float: none;
 
@@ -71,20 +71,9 @@ nav .left h1 {
     transition: 0.3s ease-in-out;
     overflow-wrap: break-word;
     text-align: center;
-
+    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    white-space: nowrap;
 }
-
-nav .left form svg {
-
-    width: 20px;
-    height: 20px;
-    margin-left: 15px;
-    fill: #000000;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
-
-nav .left form input[type="submit"] { display: none; }
 
 /* Partie centrale du nav */
 
@@ -198,7 +187,7 @@ nav .right .nav-about:hover { color: white; }
 
 .grid h1 {
     text-align: center;
-    font-size: xxx-large;
+
 }
 
 .grid h2 {
