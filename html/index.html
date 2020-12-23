@@ -22,13 +22,18 @@
     <body>
 
     <nav>
+        <div class="mid">
+            <a href="index.html"><img src="../img/logobuyscan.png" class="logo" alt="BuyScan"></a>
+        </div>
         <div class="left">
-            <img src="../img/logobuyscan.png" alt="logo">
-            <a href="index.html"><h1>BuyScan</h1></a>
+            <a href="index.html"><h1>Accueil</h1></a>
+            <a class="nav-about" href="#about"><h1>A propos</h1></a>
         </div>
         <div class="right">
             <form action="recherche.html">
-                <input type="text" placeholder="Nom de manga">
+                <label>
+                    <input type="text" placeholder="Titre du manga">
+                </label>
                 <label> <!-- explication pour la balise label -> https://stackoverflow.com/questions/13649872/can-i-make-an-svg-image-button -->
                     <input type="submit" value="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
@@ -38,37 +43,34 @@
             </form>
             <span class="separator"></span>
             <a href="panier.html"><img src="" alt="Panier"></a>
-            <span class="separator"></span>
-            <a class="nav-about" href="#about">À Propos</a>
         </div>
     </nav>
 
-        <section class="banner">
+        <section class="grid">
             <h1>Dernières sorties</h1>
-
+                <div class="last-rel">
                     <ul>
-
                         <li>
                             <div class="op">
                             <h2>One Piece</h2>
 
-                            <img src="../coverchapop/996.png" alt="cover chap 996 op" class="primg"/>
-                                <div class="text">
+                            <img src="../coverchapop/996.png" alt="cover chap 996 op"/>
+                                <div>
                                     <p>Chapitre 996</p>
                                 </div>
 
-                            <img src="../coverchapop/997.png" alt="cover chap 997 op" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapop/997.png" alt="cover chap 997 op"/>
+                                <div>
                                     <p>Chapitre 997</p>
                                 </div>
 
-                            <img src="../coverchapop/998.png" alt="cover chap 998 op" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapop/998.png" alt="cover chap 998 op"/>
+                                <div>
                                     <p>Chapitre 998</p>
                                 </div>
 
-                            <img src="../coverchapop/999.png" alt="cover chap 999 op" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapop/999.png" alt="cover chap 999 op"/>
+                                <div>
                                     <p>Chapitre 999</p>
                                 </div>
                             </div>
@@ -80,23 +82,23 @@
                              <div class="csman">
                              <h2>Chainsaw Man</h2>
 
-                             <img src="../coverchapcsman/94.jpg" alt="cover chap 94 csman" class="primg"/>
-                                <div class="text">
+                             <img src="../coverchapcsman/94.jpg" alt="cover chap 94 csman"/>
+                                <div>
                                     <p>Chapitre 94</p>
                                 </div>
 
-                            <img src="../coverchapcsman/95.jpg" alt="cover chap 95 csman" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapcsman/95.jpg" alt="cover chap 95 csman"/>
+                                <div>
                                     <p>Chapitre 95</p>
                                 </div>
 
-                            <img src="../coverchapcsman/96.jpg" alt="cover chap 96 csman" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapcsman/96.jpg" alt="cover chap 96 csman">
+                                <div>
                                     <p>Chapitre 96</p>
                                 </div>
 
-                            <img src="../coverchapcsman/97.jpg" alt="cover chap 97 csman" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapcsman/97.jpg" alt="cover chap 97 csman"/>
+                                <div>
                                     <p>Chapitre 97</p>
                                 </div>
                             </div>
@@ -108,28 +110,29 @@
                             <div class="mha">
                             <h2>My Hero Academia</h2>
 
-                            <img src="../coverchapmha/292.jpg" alt="cover chap 292 mha" class="primg"/>
-                                <div class="text">
+                            <img src="../coverchapmha/292.jpg" alt="cover chap 292 mha"/>
+                                <div>
                                     <p>Chapitre 292</p>
                                 </div>
 
-                            <img src="../coverchapmha/293.jpg" alt="cover chap 293 mha" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapmha/293.jpg" alt="cover chap 293 mha"/>
+                                <div>
                                     <p>Chapitre 293</p>
                                 </div>
 
-                            <img src="../coverchapmha/294.jpg" alt="cover chap 294 mha" class="img"/>
-                                <div class="text">
+                            <img src="../coverchapmha/294.jpg" alt="cover chap 294 mha"/>
+                                <div>
                                     <p>Chapitre 294</p>
                                 </div>
 
-                            <img src="../coverchapmha/295.jpg" alt="cover chap 295 mha" class="img"/>
-                                 <div class="text">
+                            <img src="../coverchapmha/295.jpg" alt="cover chap 295 mha"/>
+                                 <div>
                                     <p>Chapitre 295</p>
                                 </div>
                             </div>
                         </li>
                     </ul>
+                </div>
         </section>
 
         <!-- Qui sommes nous ? -->
