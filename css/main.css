@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
+* {
+    border: 1px solid red;
+}
 
 ::-webkit-scrollbar {
     display: none;
@@ -132,12 +134,12 @@ nav .right form input[type="text"] {
 
     transition: width 0.6s ease-in-out;
 }
-
+/*
 nav .right form input[type="text"]:hover,
 nav .right form input[type="text"]:focus {
 
-    width: 15rem;
-}
+    width: 10rem;
+} */
 
 nav .right form input[type="text"]::placeholder {
 
@@ -166,7 +168,7 @@ nav .right img {
     transition: transform 0.3s ease-in-out;
 }
 
-nav .right img:hover { transform: scale(1.2); }
+/* nav .right img:hover { transform: scale(1.2); } */
 
 nav .right .nav-about {
 
@@ -181,6 +183,12 @@ nav .right .nav-about:hover { color: white; }
 /* =============================================================================================================
                                             GRID
    ============================================================================================================= */
+
+.grid {
+
+
+}
+
 .grid ul  {
     list-style: none;
 }
@@ -191,41 +199,66 @@ nav .right .nav-about:hover { color: white; }
 }
 
 .grid h2 {
+    padding: 0 1em;
+    font-size: clamp(0.2rem, 2vw, 2rem);
+    color: #ff0000;
+    font-family: "Poppins";
+    transition: 0.3s ease-in-out;
+    overflow-wrap: break-word;
     text-align: center;
+    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    white-space: nowrap;
+}
+
+.grid p  {
+    padding: 0 1em;
+    font-size: clamp(0.2rem, 2vw, 2rem);
+    color: #000000;
+    font-family: "Poppins";
+    transition: 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    white-space: nowrap;
+
 }
 .grid .op {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 85px);
-    grid-gap: 1em;
-    transform: perspective(0px) translateX(25%);
-    margin-bottom: 25px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 0.2fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 12px;
+    margin-right: 20px;
+
 }
 
 .grid .csman {
     display: grid;
-    grid-template-columns: repeat(auto-fill,85px);
-    grid-gap:1em ;
-    transform: perspective(0px) translateX(25%);
-    margin-bottom: 25px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 0.2fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 12px;
+    margin-right: 20px;
 }
 .grid .mha {
     display: grid;
-    grid-template-columns: repeat(auto-fill,85px);
-    grid-gap:1em ;
-    transform: perspective(0px) translateX(25%);
-    margin-bottom: 25px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 0.2fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 12px;
+    margin-right: 20px;
 }
 /* =============================================================================================================
                                             LAST REL
    ============================================================================================================= */
 
 .last-rel h2 {
-    float: left;
+
     line-height:25px;
     padding:0 10px;
     border-right: 1px solid white;
 }
-
+/*
 .last-rel p {
     position: relative;
     top: 50px;
@@ -235,24 +268,26 @@ nav .right .nav-about:hover { color: white; }
     background: rgba(90,0,10,0.4);
 
     /* style du texte */
-    color: white;
+/*    color: white;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-
+*/
     /* centrer le texte*/
-    display: flex;
+  /*  display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+} */
 
 .last-rel img {
     height: auto;
-    width: 200%;
+    width: 100%;
     filter: blur(2px);
 }
-
+.last-rel img:hover {
+    filter: blur(0px);
+}
 
 
 /* =============================================================================================================
@@ -287,7 +322,51 @@ nav .right .nav-about:hover { color: white; }
     font-size: 1.2rem;
 }
 
+/* =============================================================================================================
+                                            EFFETS
+   ============================================================================================================= */
 
 
-/* Généré sur https://www.shapedivider.app */
+/* Float Shadow, importé depuis https://ianlunn.github.io/Hover/ */
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient (center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%;);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    /* W3C */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
 
