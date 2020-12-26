@@ -166,6 +166,7 @@ nav .right .nav-about:hover { color: white; }
 
 @media (max-width: 425px) {
 
+
     /* Responsive nav left */
 
     nav .left h1 {display: none}

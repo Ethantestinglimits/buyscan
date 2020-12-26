@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="23/10 21h07">
-      <change afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/pres.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/présentation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverchapop/993.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverchapop/994.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverchapop/995.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverchapop/996.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverchapop/997.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverchapop/998.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverchapop/999.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -43,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -77,7 +73,8 @@
       <workItem from="1608717363924" duration="12940000" />
       <workItem from="1608759882696" duration="4084000" />
       <workItem from="1608804693586" duration="6780000" />
-      <workItem from="1608913294467" duration="20715000" />
+      <workItem from="1608913294467" duration="21221000" />
+      <workItem from="1608995373651" duration="7920000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -121,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608817493651</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="responsive + grid + pb tel vers section">
+      <created>1608945981952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608945981952</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +149,7 @@
     <MESSAGE value="23/10 21h07" />
     <MESSAGE value="eageyayeag" />
     <MESSAGE value="ajout d'effet&#10;Grid centrée&#10;Texte mis en forme&#10;Ajout de la blibli css Hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout d'effet&#10;Grid centrée&#10;Texte mis en forme&#10;Ajout de la blibli css Hover" />
+    <MESSAGE value="responsive + grid + pb tel vers section" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive + grid + pb tel vers section" />
   </component>
 </project>
