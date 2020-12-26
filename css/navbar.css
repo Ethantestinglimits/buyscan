@@ -1,0 +1,179 @@
+/* =============================================================================================================
+                                                NAVBAR
+   ============================================================================================================= */
+
+
+/* navbar général */
+
+nav {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 clamp(2rem, 2vw, 3rem);
+    background: rgb(255, 255, 255);
+    float: none;
+
+}
+
+nav h1 {
+
+    float: left;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    margin-right: auto;
+}
+
+/* Partie gauche du nav */
+
+nav .left {
+
+    display: flex;
+    align-items: self-start;
+}
+
+nav .left h1:hover { color: #9f9f9f; }
+
+nav .left h1 {
+
+    padding: 0 1em;
+    font-size: clamp(0.2rem, 2vw, 2rem);
+    color: #ff0000;
+    font-family: "Poppins";
+    transition: 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    white-space: nowrap;
+}
+
+
+nav .left a {
+    display: flex;
+    align-items: center;
+}
+nav .left p {
+
+    padding-right: 1em;
+    font-size: clamp(0.2rem, 2vw, 2rem);
+    color: #ff0000;
+    font-family: "Poppins";
+    transition: 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    white-space: nowrap;
+}
+
+/* Partie droite du nav */
+
+nav .right {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 0.5rem 0;
+    margin: 0 1rem;
+    height: 30%;
+    border-radius: 20px;
+}
+
+nav .right form {
+
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+
+    background: rgb(245, 245, 246);
+    border-radius: 20px;
+
+    padding: clamp(6px, 1vw, 10px) 20px;
+
+}
+
+nav .right form label {
+
+    display: flex;
+    align-items: center;
+}
+
+nav .right form input[type="text"] {
+
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 6rem;
+
+    color: #000000;
+
+    transition: width 0.6s ease-in-out;
+}
+/*
+nav .right form input[type="text"]:hover,
+nav .right form input[type="text"]:focus {
+
+    width: 10rem;
+} */
+
+nav .right form input[type="text"]::placeholder {
+
+    color: #000000;
+    font-weight: bolder;
+}
+
+nav .right form input[type="submit"] { display: none; }
+
+/* Loupe */
+
+nav .right form svg {
+
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    fill: #e91c1c;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+nav .right form svg:hover { fill: white; }
+
+nav .right img {
+    width: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav .right .nav-about {
+
+    color: #c2bbe7;
+    font-family: "Poppins";
+    transition: color 0.3s ease-in-out;
+}
+
+nav .right .nav-about:hover { color: white; }
+
+/* =============================================================================================================
+                                            RESPONSIVE
+   ============================================================================================================= */
+
+@media (max-width: 425px) {
+
+    /* Responsive nav left */
+
+    nav .left h1 {display: none}
+    nav .left p {font-size: 20px}
+
+    /* Responsive nav mid */
+
+    nav .mid img {display:none}
+
+
+}
