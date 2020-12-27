@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="23/10 21h07" />
+    <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="23/10 21h07">
+      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/lecture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pres.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pres.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/présentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/présentation.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,23 +38,28 @@
     </option>
   </component>
   <component name="ProjectId" id="1ls4FaGPxDUSRtXIpmnQANMSJU1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/coverchapcsman/97" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coverchapcsman/97" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -51,6 +68,19 @@
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.présentation.html">
+    <configuration name="lecture.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/site web/html/lecture.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="présentation.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/site web/html/présentation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.lecture.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,6 +99,8 @@
       <workItem from="1608804693586" duration="6780000" />
       <workItem from="1608913294467" duration="21221000" />
       <workItem from="1608995373651" duration="7946000" />
+      <workItem from="1609026317380" duration="124000" />
+      <workItem from="1609081621455" duration="9338000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -126,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609025977315</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="push">
+      <created>1609026336559</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609026336559</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +184,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="orga" />
     <MESSAGE value="23/10 15h30" />
     <MESSAGE value="23/10 21h07" />
@@ -152,6 +192,11 @@
     <MESSAGE value="ajout d'effet&#10;Grid centrée&#10;Texte mis en forme&#10;Ajout de la blibli css Hover" />
     <MESSAGE value="responsive + grid + pb tel vers section" />
     <MESSAGE value="page produit" />
-    <option name="LAST_COMMIT_MESSAGE" value="page produit" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
