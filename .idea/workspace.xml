@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="23/10 21h07">
-      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverchapcsman/97/97_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/reading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/lecture.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pres.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pres.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reading.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reading.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/lecture.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lecture.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/présentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/présentation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +65,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.présentation.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/site web/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="lecture.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/site web/html/lecture.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -78,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.lecture.html" />
       </list>
     </recent_temporary>
@@ -100,7 +100,8 @@
       <workItem from="1608913294467" duration="21221000" />
       <workItem from="1608995373651" duration="7946000" />
       <workItem from="1609026317380" duration="124000" />
-      <workItem from="1609081621455" duration="9338000" />
+      <workItem from="1609081621455" duration="9420000" />
+      <workItem from="1609158256795" duration="6533000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609026336559</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="reading pages">
+      <created>1609092622916</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609092622916</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +201,8 @@
     <MESSAGE value="responsive + grid + pb tel vers section" />
     <MESSAGE value="page produit" />
     <MESSAGE value="push" />
-    <option name="LAST_COMMIT_MESSAGE" value="push" />
+    <MESSAGE value="reading pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="reading pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

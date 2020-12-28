@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 @import url('https://fonts.googleapis.com/css?family=Bangers');
-* {
+/* {
     border: 1px solid red;
-}
+} */
 
 ::-webkit-scrollbar {
     display: none;
@@ -94,7 +94,35 @@ body
     text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
+.grid p1 {
+    padding: 0 1em;
+    font-size: clamp(0.5rem, 1.5vw, 2rem);
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    white-space: nowrap;
+    text-decoration: line-through;
+    align-items: center;
+    justify-content: center;
+}
 
+.grid a {color: #9f1c20}
+
+.grid p2 {
+    font-size: clamp(0.5rem, 1.5vw, 2rem);
+    color: #ff0f0f;
+    font-family: "Poppins";
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    white-space: nowrap;
+}
 .grid p i {
     font-size: clamp(0.5rem, 1.5vw, 3rem);
     color: #9f1c20;

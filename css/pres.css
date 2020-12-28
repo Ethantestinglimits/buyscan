@@ -14,50 +14,147 @@ body {
 #Box {
     margin-right: 50px;
     margin-left: 50px;
+
 }
+/* =============================================================================================================
+                                            PRODUIT
+   ============================================================================================================= */
 
 .produit {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
+
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    color: #000000;
 }
+
+/* =============================================================================================================
+                                            CHAPTER
+   ============================================================================================================= */
+
 
 .chapter {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 20px;
+
 }
 
 .chapter img {
     width: 100%;
+    max-width: 60rem;
+    min-width: 10rem;
+    height: auto;
+    border: 1px solid black;
+
 }
+
+/* =============================================================================================================
+                                            DESCRIPTION
+   ============================================================================================================= */
 
 .description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 
 }
 .description h1 {
     text-align: center;
     justify-content: flex-start;
+
+    /* effet 3D générée sur https://www.html-code-generator.com/css/3d-text-generator */
+
+    font-size: clamp(30px,2vw,41px);
+    color: #ff0707;
+    font-family: Impact, Charcoal, sans-serif;
+    text-shadow: 0px 0px 0 rgb(231,-17,0),
+    1px 1px 0 rgb(206,-42,0),
+    2px 2px 0 rgb(182,-66,0),
+    3px 3px 0 rgb(157,-91,0),
+    4px 4px 0 rgb(133,-115,0),
+    5px 5px 0 rgb(108,-140,0),
+    6px 6px  0 rgb(84,-164,0),
+    7px 7px 6px rgba(0,0,0,0.6),
+    7px 7px 1px rgba(0,0,0,0.5),
+    0px 0px 6px rgba(0,0,0,.2);
 }
+
 
 .description h2 {
     justify-content: flex-end;
-    text-align: left;
+    text-align: center;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #616161;
+    text-shadow: #e0e0e0 1px 1px 0;
+    text-decoration: line-through;
+}
+
+.description h4 {
+    justify-content: flex-end;
+    text-align: center;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #616161;
+    text-shadow: #e0e0e0 1px 1px 0;
+    color: #ff0000;
 }
 
 .description h3 {
-    text-align: left
+    text-align: center;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #757575;
+    color: #ffffff;
 }
-.description h4 {
-    text-align: left
-}
+
 
 .description p {
     justify-content: flex-end;
-text-align: center
+    text-align: center;
+
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #616161;
+    text-shadow: #e0e0e0 1px 1px 0;
 }
+
+.description img {
+    display: none;
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* =============================================================================================================
                                             RESPONSIVE
    ============================================================================================================= */
+
+@media (max-width: 425px){
+
+    .description img {
+        display: flex
+    }
+    .chapter {display:none}
+    .logo {margin-top: 70px}
+
+    .produit {margin-top: 10px}
+
+    #Box {
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
