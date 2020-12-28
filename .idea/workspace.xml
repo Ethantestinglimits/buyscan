@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="23/10 21h07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pres.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pres.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reading.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lecture.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lecture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/présentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/présentation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,8 @@
       <workItem from="1608995373651" duration="7946000" />
       <workItem from="1609026317380" duration="124000" />
       <workItem from="1609081621455" duration="9420000" />
-      <workItem from="1609158256795" duration="6533000" />
+      <workItem from="1609158256795" duration="6965000" />
+      <workItem from="1609174906418" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -173,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609092622916</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1609165761661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609165761661</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +206,8 @@
     <MESSAGE value="page produit" />
     <MESSAGE value="push" />
     <MESSAGE value="reading pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="reading pages" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -155,7 +155,7 @@ nav .right .nav-about {
 
     color: #c2bbe7;
     font-family: "Poppins";
-    transition: color 0.3s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 nav .right .nav-about:hover { color: white; }

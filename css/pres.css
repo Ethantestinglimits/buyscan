@@ -1,6 +1,6 @@
-* {
+/* {
     border: 1px solid red;
-}
+} */
 
 body {
     display: flex;
@@ -115,6 +115,7 @@ body {
     height: auto;
     background-color: #757575;
     color: #ffffff;
+    text-decoration: none;
 }
 
 
