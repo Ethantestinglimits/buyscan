@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="23/10 21h07">
+      <change afterPath="$PROJECT_DIR$/css/presve.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/press295.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/press999.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pres.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/presho.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/lect97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lect97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pres97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pres97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/coverchapcsman/97" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -49,6 +58,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\html" />
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\css" />
       <recent name="$PROJECT_DIR$/coverchapcsman/97" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -59,7 +70,10 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/buyscan/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/site web/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -71,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.lect97.html" />
       </list>
@@ -99,7 +114,8 @@
       <workItem from="1609174906418" duration="797000" />
       <workItem from="1609181600132" duration="154000" />
       <workItem from="1609235974302" duration="4407000" />
-      <workItem from="1609451716569" duration="197000" />
+      <workItem from="1609451716569" duration="232000" />
+      <workItem from="1609500812555" duration="4224000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -185,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609181637806</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="home sweet home">
+      <created>1609451934991</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609451934991</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +239,8 @@
     <MESSAGE value="reading pages" />
     <MESSAGE value="update" />
     <MESSAGE value="upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload" />
+    <MESSAGE value="home sweet home" />
+    <option name="LAST_COMMIT_MESSAGE" value="home sweet home" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

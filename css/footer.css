@@ -1,5 +1,5 @@
 footer {
-    display: table-row;
+    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -8,9 +8,15 @@ footer {
     float: none;
 }
 
+footer .size{
+    display: block;
+    width: auto;
+    height: auto;
+
+}
 footer h1 {
     margin-right: 10px;
-    font-size: clamp(0.5rem,2vw,2rem);
+    font-size: clamp(0.5rem,2vw,1rem);
     color: #fd0000;
     font-family: "Poppins";
     text-align: left;
@@ -21,13 +27,13 @@ footer h1 {
 footer p {
     color : #414141;
     font-family: "Carrois  SC",sans-serif;
-    font-size: clamp(0.2rem,2vw,0.5rem);
+    font-size: clamp(0.5rem,2vw,0.8rem);
     text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 
 footer a {
-
+ text-decoration: none;
 }
 
 footer .left {
