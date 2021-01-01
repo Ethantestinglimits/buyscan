@@ -2,15 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="23/10 21h07">
-      <change afterPath="$PROJECT_DIR$/css/presve.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/press295.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/press999.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapmha/295/295_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapmha/295/295_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapmha/295/295_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapmha/295/295_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapmha/295/295_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapop/999/999_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapop/999/999_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapop/999/999_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapop/999/999_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverchapop/999/999_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Lecture/lect295.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Lecture/lect999.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pres.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/presho.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lect97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lect97.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pres97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pres97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/lect97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Lecture/lect97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/panier.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/panier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pres97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/pres97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/press295.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/press295.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/press999.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/press999.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/recherche.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/recherche.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,24 +97,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/coverchapop/999" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\coverchapop\999" />
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\coverchapmha\295" />
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\html\Lecture" />
       <recent name="C:\Users\Ethan\WebstormProjects\buyscan\html" />
       <recent name="C:\Users\Ethan\WebstormProjects\buyscan\css" />
-      <recent name="$PROJECT_DIR$/coverchapcsman/97" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\css" />
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\html\Pres" />
+      <recent name="C:\Users\Ethan\WebstormProjects\buyscan\html\Lecture" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -115,7 +164,8 @@
       <workItem from="1609181600132" duration="154000" />
       <workItem from="1609235974302" duration="4407000" />
       <workItem from="1609451716569" duration="232000" />
-      <workItem from="1609500812555" duration="4224000" />
+      <workItem from="1609500812555" duration="4387000" />
+      <workItem from="1609512406404" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -208,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609451934991</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="yo">
+      <created>1609505425612</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609505425612</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +297,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="upload" />
     <MESSAGE value="home sweet home" />
-    <option name="LAST_COMMIT_MESSAGE" value="home sweet home" />
+    <MESSAGE value="yo" />
+    <option name="LAST_COMMIT_MESSAGE" value="yo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
