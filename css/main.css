@@ -57,17 +57,17 @@ a {text-decoration: none}
     padding: 0 1em;
     font-size: clamp(1.5rem, 2vw, 2rem);
     color: #ff0000;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     overflow-wrap: break-word;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 
 
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 0;
     grid-row-gap: 10px;
 }
 
@@ -75,10 +75,10 @@ a {text-decoration: none}
     padding: 0 1em;
     font-size: clamp(0.2rem, 2vw, 2rem);
     color: #000000;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     overflow-wrap: break-word;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 
@@ -86,22 +86,22 @@ a {text-decoration: none}
     padding: 0 1em;
     font-size: clamp(0.5rem, 1.5vw, 2rem);
     color: #000000;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     font-weight: bold;
     overflow-wrap: break-word;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 .grid p1 {
     padding: 0 1em;
     font-size: clamp(0.5rem, 1.5vw, 2rem);
     color: #000000;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     font-weight: bold;
     overflow-wrap: break-word;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
     text-decoration: line-through;
     align-items: center;
@@ -113,11 +113,11 @@ a {text-decoration: none}
 .grid p2 {
     font-size: clamp(0.5rem, 1.5vw, 2rem);
     color: #ff0f0f;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     font-weight: bold;
     overflow-wrap: break-word;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 .grid p i {
@@ -209,7 +209,7 @@ a {text-decoration: none}
     font-size: clamp(30px, 5vw, 200px);
     font-weight: 700;
     color: #ff0000;
-    text-shadow: 2px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 2px 1px 0 rgba(150, 183, 178, 1);
     margin: -20px;
 }
 
@@ -218,14 +218,14 @@ a {text-decoration: none}
     font-size: clamp(1rem, 2vw, 3rem);
 
     color: #373737;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
 }
 .about p {
 
     color : #414141;
     font-family: "Carrois  SC",sans-serif;
     font-size: 1.2rem;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
 }
 /* =============================================================================================================
                                             RESPONSIVE
@@ -235,8 +235,8 @@ a {text-decoration: none}
 
     .last-rel li > div > div{}
 
-    .grid {margin-top: 0px}
-    .grid ul {margin-left: 0px}
+    .grid {margin-top: 0}
+    .grid ul {margin-left: 0}
 }
 
 /* =============================================================================================================

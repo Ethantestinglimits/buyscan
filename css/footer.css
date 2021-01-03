@@ -18,9 +18,9 @@ footer h1 {
     margin-right: 10px;
     font-size: clamp(0.5rem,2vw,1rem);
     color: #fd0000;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
     text-align: left;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 
@@ -28,7 +28,7 @@ footer p {
     color : #414141;
     font-family: "Carrois  SC",sans-serif;
     font-size: clamp(0.5rem,2vw,0.8rem);
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 

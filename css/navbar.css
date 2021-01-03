@@ -46,11 +46,11 @@ nav .left h1 {
     padding: 0 1em;
     font-size: clamp(0.2rem, 2vw, 2rem);
     color: #ff0000;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     transition: 0.3s ease-in-out;
     overflow-wrap: break-word;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 
@@ -64,11 +64,11 @@ nav .left p {
     padding-right: 1em;
     font-size: clamp(0.2rem, 2vw, 2rem);
     color: #ff0000;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     transition: 0.3s ease-in-out;
     overflow-wrap: break-word;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(150, 183, 178, 1);
+    text-shadow: 1px 1px 0 rgba(150, 183, 178, 1);
     white-space: nowrap;
 }
 
@@ -154,7 +154,7 @@ nav .right img {
 nav .right .nav-about {
 
     color: #c2bbe7;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     transition: 1s ease-in-out;
 }
 

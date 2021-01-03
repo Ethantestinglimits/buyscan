@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="icones">
-      <change afterPath="$PROJECT_DIR$/css/search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hover.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Lecture/lect295.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Lecture/lect295.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Lecture/lect999.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Lecture/lect999.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/presho.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/presho.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/presve.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/presve.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Pres/pres97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/pres97.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Pres/press295.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/press295.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Pres/press999.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/press999.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/recherche.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/recherche.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/coverchapop/999" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -116,7 +120,8 @@
       <workItem from="1609451716569" duration="232000" />
       <workItem from="1609500812555" duration="4387000" />
       <workItem from="1609512406404" duration="3546000" />
-      <workItem from="1609599754813" duration="6587000" />
+      <workItem from="1609599754813" duration="7331000" />
+      <workItem from="1609662140195" duration="2012000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -223,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609515975354</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="résultats de recherche ajouté">
+      <created>1609606856798</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609606856798</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +269,8 @@
     <MESSAGE value="home sweet home" />
     <MESSAGE value="yo" />
     <MESSAGE value="icones" />
-    <option name="LAST_COMMIT_MESSAGE" value="icones" />
+    <MESSAGE value="résultats de recherche ajouté" />
+    <option name="LAST_COMMIT_MESSAGE" value="résultats de recherche ajouté" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
