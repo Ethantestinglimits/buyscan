@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="icones">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/panier.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/panier.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/recherche.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/recherche.html" afterDir="false" />
     </list>
@@ -120,7 +121,7 @@
       <workItem from="1609664547146" duration="2144000" />
       <workItem from="1609684344452" duration="600000" />
       <workItem from="1609706459722" duration="1830000" />
-      <workItem from="1609756175968" duration="10219000" />
+      <workItem from="1609756175968" duration="10393000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609766684172</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="The End ?">
+      <created>1609767067735</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609767067735</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +301,8 @@
     <MESSAGE value="warnings fixed" />
     <MESSAGE value="aaa" />
     <MESSAGE value="maybe the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="maybe the end" />
+    <MESSAGE value="The End ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="The End ?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
