@@ -153,6 +153,24 @@ a {text-decoration: none}
     grid-row-gap: 12px;
 
 }
+
+/* GRID PLACEMENT */
+
+.void1{grid-area: 1 / 1 / 2 / 2}
+.void2{grid-area: 2 / 1 / 3 / 2}
+.void3{grid-area: 1 / 6 / 2 / 7}
+.void4{grid-area: 2 / 6 / 3 / 7}
+
+.image1 {grid-area: 1 / 2 / 2 / 3}
+.image2 {grid-area: 1 / 3 / 2 / 4}
+.image3 {grid-area: 1 / 4 / 2 / 5}
+.image4 {grid-area: 1 / 5 / 2 / 6}
+
+.text1 {grid-area: 2 / 2 / 3 / 3}
+.text2 {grid-area: 2 / 3 / 3 / 4}
+.text3 {grid-area: 2 / 4 / 3 / 5}
+.text4 {grid-area: 2 / 5 / 3 / 6}
+
 /* =============================================================================================================
                                             LAST REL
    ============================================================================================================= */

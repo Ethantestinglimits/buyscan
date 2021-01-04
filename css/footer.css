@@ -4,7 +4,7 @@ footer {
     justify-content: flex-start;
     flex-direction: row;
     padding: 0 clamp(2rem, 2vw, 3rem);
-    background: rgb(255, 255, 255);
+
     float: none;
 }
 
@@ -36,13 +36,7 @@ footer a {
  text-decoration: none;
 }
 
-footer .left {
+footer .left .follow .help {
     display: table-cell;
     flex-direction: column;
-}
-
-footer .follow {
-    display: table-cell;
-    flex-direction: column;
-
 }

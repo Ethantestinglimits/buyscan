@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17934e21-fd97-4b11-bbd7-8f57ff657e36" name="Default Changelist" comment="icones">
+      <change afterPath="$PROJECT_DIR$/css/panier.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/presho.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/presho.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/presve.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/presve.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/Pres/pres97.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/pres97.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/Pres/press295.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/press295.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/Pres/press999.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Pres/press999.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/panier.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/panier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,7 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.press999.html">
+  <component name="RunManager" selected="JavaScript Debug.pres97.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/buyscan/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -121,7 +126,10 @@
       <workItem from="1609512406404" duration="3546000" />
       <workItem from="1609599754813" duration="7331000" />
       <workItem from="1609662140195" duration="2350000" />
-      <workItem from="1609664547146" duration="2127000" />
+      <workItem from="1609664547146" duration="2144000" />
+      <workItem from="1609684344452" duration="600000" />
+      <workItem from="1609706459722" duration="1830000" />
+      <workItem from="1609756175968" duration="9881000" />
     </task>
     <task id="LOCAL-00001" summary="orga">
       <created>1608728902996</created>
@@ -242,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609664279720</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="aaa">
+      <created>1609666688031</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609666688031</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +293,9 @@
     <MESSAGE value="icones" />
     <MESSAGE value="résultats de recherche ajouté" />
     <MESSAGE value="warnings fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="warnings fixed" />
+    <MESSAGE value="aaa" />
+    <MESSAGE value="maybe the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe the end" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

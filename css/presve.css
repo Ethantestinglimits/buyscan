@@ -131,11 +131,10 @@ body {
 
 .description p {
     text-align: center;
-
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #616161;
     text-shadow: #e0e0e0 1px 1px 0;
-    white-space: nowrap;
+
 }
 
 .description img {
@@ -148,6 +147,43 @@ body {
     align-items: center;
 }
 
+/* =============================================================================================================
+                                            COMMENTAIRES
+   ============================================================================================================= */
+.title {
+    margin-top: 6vh;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(20px, 1.5vw, 200px);
+    font-weight: 700;
+    color: #fa0f0f;
+    cursor: default;
+}
+
+.commentaires ul li {
+    font-family: "Poppins", sans-serif;
+    margin-top: 3vh;
+    color: #fa0202;
+    padding: 10px 20px;
+    background-color: rgba(162, 162, 162, 0.15);
+    border-radius: 20px;
+    list-style: none;
+}
+
+.add {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+.add textarea {
+    width: 40vw;
+    height: 10vh;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    background-color: rgba(145, 145, 145, 0.15);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
 
 /* =============================================================================================================
                                             RESPONSIVE
@@ -168,4 +204,6 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .commentaires ul {padding: 0}
 }
