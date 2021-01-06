@@ -21,7 +21,6 @@ body
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed",endColorstr="#dffbff",GradientType=1);
 
 }
-
 a {text-decoration: none}
 /* =============================================================================================================
                                             LOGO
@@ -39,7 +38,6 @@ a {text-decoration: none}
 /* =============================================================================================================
                                             GRID
    ============================================================================================================= */
-
 .grid ul  {list-style: none}
 
 .grid li {margin-right: 40px}
@@ -51,6 +49,7 @@ a {text-decoration: none}
     color: rgb(240, 0, 0);
     text-shadow: rgb(0, 0, 0) 3px 3px 4px;
     text-space: 1px;
+    justify-content: center;
 }
 
 .grid h2 {
